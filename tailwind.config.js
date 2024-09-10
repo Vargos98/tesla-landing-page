@@ -6,6 +6,7 @@ export default {
     extend: {
       backgroundImage: {
         'model-y': "url('./assets/ModelY.avif')",
+        'modelThree': "url('./assets/Model-3.avif')",
       }
     },
   },
