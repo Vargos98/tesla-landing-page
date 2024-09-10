@@ -3,7 +3,7 @@
 const ModelX = () => {
   return (
     <div className="header-container bg-modelX h-screen w-full bg-center bg-cover relative ">
-    <div className='flex flex-col absolute top-20 left-[50%] translate-x-[-50%]'>
+    <div className='flex flex-col absolute top-16 left-[50%] translate-x-[-50%]'>
       <h1 className='m-auto text-[60px] font-bold text-white'>Model X</h1>
       <p className='text-center'>
       

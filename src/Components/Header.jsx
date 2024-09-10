@@ -3,7 +3,7 @@ import './Header.css'; // Make sure you have this CSS file for additional styles
 
 const Header = () => {
   return (
-    <div className="header-container bg-model-y h-screen w-full bg-center bg-cover relative ">
+    <div className="header-container bg-model-y h-screen w-full bg-center bg-cover relative">
       <div className="pt-5 flex justify-between items-center">
         <div>
           <svg

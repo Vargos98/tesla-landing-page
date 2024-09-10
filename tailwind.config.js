@@ -8,6 +8,7 @@ export default {
         'model-y': "url('./assets/ModelY.avif')",
         'modelThree': "url('./assets/Model-3.avif')",
         'modelX': "url('./assets/Model-x.avif')",
+        'modelS': "url('./assets/Model-2.avif')",
       }
     },
   },
