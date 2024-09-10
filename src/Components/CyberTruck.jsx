@@ -12,7 +12,7 @@ const CyberTruck = () => {
         <button className="bg-[#1f1e1ee5] px-24 py-2 text-[14px] uppercase whitespace-nowrap  text-gray-400 font-bold hover:bg-[#3a3939e5]">
           Order Now
         </button>
-        <button className="bg-[#1f1e1ee5] px-24 py-2 text-[14px] uppercase text-gray-400 font-bold hover:bg-[#3a3939e5]">
+        <button className="bg-[#1f1e1ee5] px-24 py-2 text-[14px] uppercase text-nowrap text-gray-400 font-bold hover:bg-[#3a3939e5]">
           Demo Drive
         </button>
       </div>
