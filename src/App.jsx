@@ -1,5 +1,6 @@
 // import React from 'react'
 
+import CyberTruck from "./Components/CyberTruck"
 import Header from "./components/Header"
 import ModelS from "./Components/ModelS"
 import ModelThree from "./Components/ModelThree"
@@ -12,6 +13,7 @@ const App = () => {
        <ModelThree/>
        <ModelX/>
        <ModelS/>
+       <CyberTruck/>
     </div>
   )
 }

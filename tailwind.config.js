@@ -9,6 +9,7 @@ export default {
         'modelThree': "url('./assets/Model-3.avif')",
         'modelX': "url('./assets/Model-x.avif')",
         'modelS': "url('./assets/Model-2.avif')",
+        'CyberTruck': "url('./assets/CyberTruck.avif')",
       }
     },
   },
