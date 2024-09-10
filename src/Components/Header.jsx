@@ -3,8 +3,8 @@ import './Header.css'; // Make sure you have this CSS file for additional styles
 
 const Header = () => {
   return (
-    <div className="header-container bg-model-y h-screen w-full bg-center bg-cover relative">
-      <div className="pt-5 flex justify-between">
+    <div className="header-container bg-model-y h-screen w-full bg-center bg-cover relative ">
+      <div className="pt-5 flex justify-between items-center">
         <div>
           <svg
             className="w-44 lg:w-32 ml-8 cursor-pointer text-white"
@@ -18,7 +18,7 @@ const Header = () => {
           </svg>
         </div>
         <div className="hidden lg:inline">
-          <ul className="menu flex gap-5 text-1xl font-medium text-white">
+          <ul className="menu flex gap-5 text-1xl font-bold text-white">
             <li className="menu-item py-1 px-2 hover:bg-slate-300 rounded-full cursor-pointer hover:text-black relative">
               Vehicles
               <ul className="dropdown hidden absolute top-full left-0 mt-2 bg-white text-black w-48 rounded-lg shadow-lg">
@@ -60,10 +60,21 @@ const Header = () => {
           </ul>
         </div>
         <div>
-          <ul className="flex text-white font-medium gap-5 mr-8 text-1xl">
+          <ul className="flex text-white font-bold gap-5 mr-8 text-1xl">
             <li className="py-1 px-2 hover:bg-slate-800 rounded-full">Contact us</li>
             <li className="py-1 px-2 hover:bg-slate-800 rounded-full">Menu</li>
           </ul>
+        </div>
+        <div className='flex flex-col absolute top-32 left-[50%] translate-x-[-50%]'>
+          <h1 className='m-auto text-[40px] font-bold text-white'>Model Y</h1>
+          <p className='whitespace-nowrap pt-1 text-[16px] text-[#636568] font-bold'>
+          Order online for
+          <span className='underline  underline-offset-4 hover:decoration-2 cursor-pointer'>Touchless Delivery</span>
+          </p>
+        </div>
+        <div className='absolute top-[650px] flex flex-col left-[50%] translate-x-[-50%] gap-4 lg:flex-row'>
+          <button className='bg-blue-700 px-24 py-2 text-1xl whitespace-nowrap text-white font-bold rounded'>Order Now</button>
+          <button className='bg-white px-24 py-2 text-1xl whitespace-nowrap text-black font-bold rounded'>Demo Drive</button>
         </div>
       </div>
     </div>

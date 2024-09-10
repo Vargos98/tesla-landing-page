@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @font-face {
-  font-family:"Gotham-book" ;
+  font-family:"Gotham Book" ;
   src: url("../public/GothamBook.ttf");
+}
+
+*{
+  font-family: "Gotham Book", sans-serif;
 }
