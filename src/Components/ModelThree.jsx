@@ -1,6 +1,6 @@
 // import React from 'react'
 
-const ModelThree = () => {
+const ModelX = () => {
   return (
     <div className="header-container bg-modelThree h-screen w-full bg-center bg-cover relative ">
         <div className='flex flex-col absolute top-20 left-[50%] translate-x-[-50%]'>
@@ -20,4 +20,4 @@ const ModelThree = () => {
   )
 }
 
-export default ModelThree
+export default ModelX
