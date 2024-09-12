@@ -10,9 +10,9 @@ const ModelX = () => {
           <p className="text-white font-bold">From $34,9902</p>
           </p>
 
-          <div className='absolute top-[580px] flex flex-col left-[50%] translate-x-[-50%] gap-4 lg:flex-row xl:top-[580px]'>
-          <button className='bg-blue-700 px-24 py-2 text-1xl whitespace-nowrap text-white font-bold rounded hover:bg-blue-500'>Order Now</button>
-          <button className='bg-white px-24 py-2 text-1xl whitespace-nowrap text-black font-bold rounded hover:bg-gray-400'>Demo Drive</button>
+          <div className='absolute bottom-[-580px] left-1/2 translate-x-[-50%] flex flex-col gap-4 lg:flex-row xl:bottom-[-460px] '>
+          <button className='bg-blue-700 px-24 py-2 text-xl whitespace-nowrap text-white font-bold rounded hover:bg-blue-500'>Order Now</button>
+          <button className='bg-white px-24 py-2 text-xl whitespace-nowrap text-black font-bold rounded hover:bg-gray-400'>Demo Drive</button>
         </div>
         </div>
     </div>
